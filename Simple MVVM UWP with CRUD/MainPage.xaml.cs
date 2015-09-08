@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
+using ViewModels;
+
 namespace Simple_MVVM_UWP_with_CRUD
 {
     /// <summary>
@@ -25,6 +27,9 @@ namespace Simple_MVVM_UWP_with_CRUD
         public MainPage()
         {
             this.InitializeComponent();
+            Organization = new OrganizationViewModel("Office");
         }
+
+        public OrganizationViewModel Organization { get; set; }
     }
 }
