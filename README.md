@@ -26,7 +26,7 @@ With Windows 10 and Visual Studio 2015 many of the challenges are have been addr
 
 MVVM was already a well-proven approach that has been used to build many sophisticated and great performing apps and now with these new capabilities MVVM is more approachable than ever.
 
-An Overview of the App 
+# An Overview of the App 
 
 One of the key goals was to keep this example as simple as possible. But we also want the example to represent what a developer would actually need to do to build an app using MVVM. And getting all the CRUD operations in place over a real world database or other system isn’t trivial. So here is how we approach this.
 
