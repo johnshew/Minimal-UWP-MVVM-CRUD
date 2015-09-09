@@ -1,12 +1,10 @@
-# Minimal-UWP-MVVM-CRUD
-Minimal MVVM UWP App with CRUD over Data Service
+# A Minimal MVVM UWP App Implementing CRUD over a Data Service
 
-## A Minimal MVVM UWP App  Implementing CRUD over Data
 With the introduction of Win 10 and Universal Windows apps I wanted to try out some of the new XAML features like compile time binding with x:Bind. 
 
 To start I looked around for a very simple Universal Windows Platform (UWP) sample that showed how to build an MVVM app with create, update, and delete (CRUD) operations over some data source.  Surprisingly, I really didn’t find anything specific for UWPs.  Of course there are many samples for WPF but they required a rewrite for UWP and they don’t leverage the new XAML capabilities making them more complicated than necessary. Similarly the core UWP XAML samples don’t show how to do CRUD and while they covered new capabilities they include a lot of unrelated stuff that makes them less useful as a starting point for your own apps.
 
-So the question is how simple can we make an MVVM UWP example and still support full CRUD?
+So the question is how simple can we make an MVVM UWP application and still support full CRUD over a data service?
 
 As you can see below the ViewModel for the resulting app is less than 100 lines of code – which is pretty reasonable since we need to cover all the corner cases associated with adds, updates, and deletes – and get those connected to the data layer.  The XAML View is also simple – only 25 lines of XAML and no code behind other than initialization.
 
