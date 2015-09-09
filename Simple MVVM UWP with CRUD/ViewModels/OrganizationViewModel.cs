@@ -44,7 +44,7 @@ namespace ViewModels
         public int SelectedIndex
         {
             get { return _SelectedIndex; }
-            set { if (SetProperty(ref _SelectedIndex, value)) { RaisePropertyChanged("SelectedPerson"); } }
+            set { if (SetProperty(ref _SelectedIndex, value)) { RaisePropertyChanged(nameof(SelectedPerson)); } }
         }
 
         public PersonViewModel SelectedPerson
