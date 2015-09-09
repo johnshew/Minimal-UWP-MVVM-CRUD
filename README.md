@@ -18,7 +18,7 @@ Before we look at the code, I wanted to touch on whether it is worth the effort 
 
 * Model.  Think of the models as the business objects.  A Model should know about nothing about the user experience - specifically the View or how it is implemented using a ViewModel.  The Model only interact with system and data services.  
 
-*ViewModel.  The ViewModel is where you encapsulate any code or data that your UX or View will need.  It is important that ViewModel only knows about and encapsulates the Model – but it shouldn’t be responsible for any Business Logic or Business Constraints – that should all be in the model. And on the other side, the ViewModel should know nothing about the specifics of the Views and UX that use it.
+* ViewModel.  The ViewModel is where you encapsulate any code or data that your UX or View will need.  It is important that ViewModel only knows about and encapsulates the Model – but it shouldn’t be responsible for any Business Logic or Business Constraints – that should all be in the model. And on the other side, the ViewModel should know nothing about the specifics of the Views and UX that use it.
 
 * View.  This is where you create the user experience – in Windows apps you do this declaratively with XAML markup language and design tools.  The View uses properties and actions on the ViewModel to get the job done.
 
