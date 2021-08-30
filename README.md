@@ -1,3 +1,7 @@
+# THIS IS NO LONGER MAINTAINED.
+
+It has been left here and available as a reference.  Other related resources and files may no longer be available.  
+
 # A Minimal MVVM UWP App Implementing CRUD over a Data Service
 
 With the introduction of Win 10 and Universal Windows apps I wanted to try out some of the new XAML features like compile time binding with x:Bind. 
