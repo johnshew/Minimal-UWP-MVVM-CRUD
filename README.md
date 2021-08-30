@@ -1,4 +1,4 @@
-# THIS IS NO LONGER MAINTAINED.
+# THIS IS NO LONGER MAINTAINED
 
 It has been left here and available as a reference.  Other related resources and files may no longer be available.  
 
